@@ -5,7 +5,7 @@ title: Deaths in NYC
 
 Recently I found a publicly available dataset, available from the [city of New York](https://catalog.data.gov/dataset/new-york-city-leading-causes-of-death-ce97f), that breaks down the leading causes of death for people in NYC (collected from 2007 to 2011).  Digging around for myself, it looks like a cause of death was included in this dataset if it affected at least 5 victims in a given year.  Raw counts are given for each cause of death broken down by gender and ethnicity.
 
-The first thing that jumped out at me with this data set was the very apparent difference between causes of death for men and women-- as seen in the graph below.  Note that in this plot, the most common cause of death ("Diseases of the Heart") was removed so that the remaining causes of death could be displayed on the same linear scale.  Heart diseases were almost equally distributed among men and women, so I didn't feel it was necessary to include them in the chart below.
+The first thing that jumped out at me with this data set was the very apparent difference between causes of death for men and women-- as seen in the graph below.  Note that in this plot, the most common cause of death ("Diseases of the Heart") was removed so that the remaining causes of death could be displayed on the same linear scale.  Heart diseases were almost equally distributed among men and women, so I didn't feel it was necessary to include them in the discussion below.
 
 <div id="canvas"></div>
 <style>
@@ -150,12 +150,9 @@ d3.csv("/percent_male.csv", function(error, data) {
 
 In this scatter plot, each point represents a single cause of death.  The x axis shows the percentage of men affected for a given cause of death, and the y axis represents the total number of deaths attributed to that cause in NYC between 2007 and 2011.  The points are colored to show the relative mixture of female (red) and male (blue) victims.  From this chart alone, there are several noticeable differences between the genders.
 
-* There are many causes of death that affect a disproportionate amount of men.  12 separate causes of death are at biased at least 60/40 toward men, while only 4 causes of death are biased at least 60/40 toward women.  This is especially interesting, because the data showed that men and women are dying at approximately the same rate.
-
+* There are many causes of death that affect a disproportionate amount of men.  12 separate causes of death are at biased at least 60/40 toward men, while only 4 causes of death are biased at least 60/40 toward women.  This is especially interesting because the data showed that men and women are dying at approximately the same rate.
 * There are a few clear unexplained outliers in the data.  All 15 tuberculosis deaths in the data were male (I could not find any articles describing a gender preference for tuberculosis), and all 8 deaths caused by "inhalation of solid or liquids" (which I took to mean "drowning") were female.
-
 * All violent and accident-related deaths are heavily biased toward men, notably homicide and [suicide](ttp://blogs.scientificamerican.com/bering-in-mind/sex-and-suicide-why-do-more-men-than-women-kill-themselves/).  Other distinctly-male causes of death include alcohol-related mental disorders, liver disease (which is highly correlated with excessive alcohol consumption), drug poisonings, and general accidents.
-
 * Way more women than men die from Alzheimer's disease.  We've known for a while now that [more women than men _get_ Alzheimer's disease](http://www.washingtonpost.com/local/with-women-perhaps-facing-higher-risk-of-alzheimers-female-scientists-unite/2014/09/03/2aa0506c-28ab-11e4-8593-da634b334390_story.html), but it's still cool to find consistent results in independently-collected data.
 
-I expect to return to this data set at some point in the future and create some charts that also show differences between ethnicities.  Until then, this will have to do.  I created the scatter plot above using [d3.js](http://d3js.org/), you can find the full source code for this file in [the Github repository I use to post to this blog](https://github.com/nickstanisha/nickstanisha.github.io/blob/master/_posts/2015-08-20-deaths-in-nyc.md)
+I expect to return to this data set at some point in the future and create some charts that also show differences between ethnicities.  Until then, this will have to do.  I created the scatter plot above using [d3.js](http://d3js.org/), you can find the full source code for creating this chart in [the Github repository I use to post to this blog](https://github.com/nickstanisha/nickstanisha.github.io/blob/master/_posts/2015-08-20-deaths-in-nyc.md)
