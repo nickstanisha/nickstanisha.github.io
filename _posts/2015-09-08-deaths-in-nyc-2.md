@@ -5,7 +5,7 @@ title: Deaths in NYC Part II
 
 Just a short post today-- This is another analysis of the [city of New York](https://catalog.data.gov/dataset/new-york-city-leading-causes-of-death-ce97f) dataset I talked about in my last post (although I've only included the top 25 causes of death in this post).  I wanted to create a visualization that would allow people to explore how different causes of death affect different genders and ethnicities differently, and I think I've succeeded here (but I suppose you can judge for yourself).
 
-All elements of the visualization are interactive and responsive to changes in any element.  For example, you can isolate causes of death by clicking on the bars in the horizontal bar chart to the right, or ethnicities by selecting the verticle bars to the left.  I like this visualization because elements of my [previous visualization](http://nickstanisha.github.io/2015/08/20/deaths-in-nyc.html) are present here in the ring chart in the top left.
+All elements of the visualization are interactive and responsive to changes in any element.  For example, you can isolate causes of death by clicking on the bars in the horizontal bar chart to the right, or ethnicities by selecting the vertical bars to the left.  I like this visualization because elements of my [previous visualization](http://nickstanisha.github.io/2015/08/20/deaths-in-nyc.html) are present here in the ring chart in the top left.
 
 <br>
 
