@@ -7,7 +7,7 @@ Recently I found a publicly available dataset, available from the [city of New Y
 
 The first thing that jumped out at me with this data set was the very apparent difference between causes of death for men and women-- as seen in the graph below.  Note that in this plot, the most common cause of death ("Diseases of the Heart") was removed so that the remaining causes of death could be displayed on the same linear scale.  Heart diseases were almost equally distributed among men and women, so I didn't feel it was necessary to include them in the discussion below.
 
-<div id="canvas"></div>
+<div id="canvas" style="margin:auto"></div>
 <style>
 .axis path,
 .axis line {
