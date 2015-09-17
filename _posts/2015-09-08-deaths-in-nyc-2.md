@@ -22,12 +22,12 @@ All elements of the visualization are interactive and responsive to changes in a
 
 <style>
   .dc-chart g.row text {fill: black;}
-  #canvas {width:800px; overflow:hidden;}
+  #canvas {width:800px; overflow:hidden; margin:auto;}
   #left-container {width:300px; float:left;}
   #right-container {width:500px; overflow:hidden;}
 </style>
 
-<div id="canvas" style="{margin-top:300px; margin-bottom:50px; margin-left:50%}">
+<div id="canvas">
 	<div id="left-container">
 		<div id="chart-ring-gender"></div>
     	<div id="bar-chart-ethnicity"></div>
