@@ -4,10 +4,8 @@ title: Which T station am I closest to?
 ---
 
 When making this visualization I wanted to know what it would look like if I were to take a map of Boston and choose a color for each point 
-depending on which line was most convenient from that point.
+depending on which subway stop was most convenient from that point.
 Luckily, a [Voronoi Diagram](https://en.wikipedia.org/wiki/Voronoi_diagram) is perfect for this sort of visualization.
-
-Even luckier, d3.js has a convenient library for creating Voronoi Diagrams from a list of points.
 
 Luckier still, the city of Boston has a surprisingly well-documented [API](http://www.mbta.com/rider_tools/developers/) and there are 
 [many publicly available datasets](https://github.com/mbtaviz) regarding the Massachusetts Bay Transit Authority (MBTA).
