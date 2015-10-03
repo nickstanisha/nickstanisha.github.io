@@ -14,7 +14,9 @@ The data I used for this visualization can be found [here](https://github.com/si
 
 The Google Maps layer underneath this visualization is fully interactive, so you can drag the map and click on available locations
 to get more information.  As you zoom in, more subway stations will be labelled on the map.  The circles inside each polygon
-are there as a reference for the actual location of the subway station, according to my data.
+are there as a reference for the actual location of the subway station, according to my data.  The colors of the circles and the polygons
+indicate the color of the trains that stop at the closest station (if you are unaware, the four main Boston subway routes are the Red, 
+Orange, Green, and Blue Lines).
 
 
 
