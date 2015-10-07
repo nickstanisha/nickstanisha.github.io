@@ -27,15 +27,6 @@ Orange, Green, and Blue Lines).
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <style type="text/css">
 
-h1 {
-	font-size:36px;
-}
-
-body {
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
-	font-size:14px;
-}
-
 #map_canvas {
 	margin: auto;
 	width: 800px;
