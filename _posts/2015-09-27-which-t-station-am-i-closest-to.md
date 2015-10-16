@@ -54,7 +54,7 @@ Orange, Green, and Blue Lines).
 <script type="text/javascript">
 "use strict";
 
-d3.json('/new_stops.geojson', function(pointjson){
+d3.json('/data/boston_subway/new_stops.geojson', function(pointjson){
 	main(pointjson); 
 });
 

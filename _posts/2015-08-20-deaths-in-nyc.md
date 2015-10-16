@@ -80,7 +80,7 @@ var tooltip = d3.select("div#canvas").append("div")
     .style("opacity", 0);
 
 // load data
-d3.csv("/percent_male.csv", function(error, data) {
+d3.csv("/data/nyc_deaths/percent_male.csv", function(error, data) {
 
   // change string (from CSV) into number format
   data.forEach(function(d) {

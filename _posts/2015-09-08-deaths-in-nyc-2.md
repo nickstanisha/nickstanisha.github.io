@@ -38,7 +38,7 @@ All elements of the visualization are interactive and responsive to changes in a
 </div>
 
 <script type="text/javascript">
-d3.csv("/cumulative_deaths.csv", function(error, data_csv) {
+d3.csv("/data/nyc_deaths/cumulative_deaths.csv", function(error, data_csv) {
   if (error) {
     console.log('Error loading CSV');
     console.log(error);
