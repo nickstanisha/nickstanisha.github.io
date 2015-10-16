@@ -10,7 +10,7 @@ feature-img: "img/sample_feature_img.png"
 div.img {
     margin: 5px;
     padding: 5px;
-    border: 1px solid #0000ff;
+    border: 1px solid #8CC9C9;
     height: auto;
     width: auto;
     float: left;
@@ -26,7 +26,7 @@ div.img img {
 }
 
 div.img a:hover img {
-    border: 1px solid #0000ff;
+    border: 1px solid #8CC9C9;
 }
 
 div.desc {
