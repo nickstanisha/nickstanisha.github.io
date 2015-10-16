@@ -40,17 +40,17 @@ div.desc {
 
 <div class="img">
 	<a target="_blank" href="http://nickstanisha.github.io/2015/09/27/which-t-station-am-i-closest-to.html">
-	<img src="/img/gallery/boston_subway.png" alt="Boston Subway Voronoi"></a>
+	<img src="/img/gallery/boston_subway.PNG" alt="Boston Subway Voronoi"></a>
 	<div class="desc">Which T Station am I closest to?</div>
 </div>
 <div class="img">
 	<a target="_blank" href="http://nickstanisha.github.io/2015/09/08/deaths-in-nyc-2.html">
-	<img src="/img/gallery/nyc_2.png" alt="Causes of death in NYC"></a>
+	<img src="/img/gallery/nyc_2.PNG" alt="Causes of death in NYC"></a>
 	<div class="desc">Deaths in NYC<br>Part 2</div>
 </div>
 <div class="img">
 	<a target="_blank" href="http://nickstanisha.github.io/2015/08/20/deaths-in-nyc.html">
-	<img src="/img/gallery/nyc_scatter.png" alt="Causes of death in NYC"></a>
+	<img src="/img/gallery/nyc_scatter.PNG" alt="Causes of death in NYC"></a>
 	<div class="desc">Deaths in NYC<br>Part 1</div>
 </div>
 
