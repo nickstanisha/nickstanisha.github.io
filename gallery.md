@@ -39,6 +39,11 @@ div.desc {
 
 
 <div class="img">
+	<a target="_blank" href="http://nickstanisha.github.io/2015/10/25/2015-NFL-season-visualized.html">
+	<img src="http://nickstanisha.github.io/img/gallery/nfl_line.PNG" alt="NFL Season Ratings"></a>
+	<div class="desc">2015 NFL Season Visualized</div>
+</div>
+<div class="img">
 	<a target="_blank" href="http://nickstanisha.github.io/2015/09/27/which-t-station-am-i-closest-to.html">
 	<img src="http://nickstanisha.github.io/img/gallery/boston_subway.PNG" alt="Boston Subway Voronoi"></a>
 	<div class="desc">Which T Station am I closest to?</div>
