@@ -3,7 +3,7 @@ layout: post
 title: 2015 NFL season visualized
 ---
 
-Lately I've been obsessed with [fivethirtyeight](http://fivethirtyeight.com/)'s sports coverage.  Their projects range from complex interactive data products like  [CARMELO](http://projects.fivethirtyeight.com/carmelo/), which attempts to probabilistically forecast the career of NBA players by identifying predictive statistics and comparing current players with players from history with similar statistics, to short studies like [this one](http://fivethirtyeight.com/datalab/the-cubs-cant-take-the-mets-heat/) which shows that fast pitchers are more effective in October, and that fast balls were particularly effective against the Cubs during this year's Leauge Championship series.
+Lately I've been obsessed with [fivethirtyeight](http://fivethirtyeight.com/)'s sports coverage.  Their projects range from complex interactive data products like  [CARMELO](http://projects.fivethirtyeight.com/carmelo/) (which attempts to probabilistically forecast the career of NBA players by identifying predictive statistics and comparing current players with players from history with similar statistics) to short studies like [this one](http://fivethirtyeight.com/datalab/the-cubs-cant-take-the-mets-heat/) which shows that fast pitchers are more effective in October, and that fast balls were particularly effective against the Cubs during this year's Leauge Championship series.
 
 But what I'd like to talk about today is fivethirtyeight's application of the [Elo rating system](https://en.wikipedia.org/wiki/Elo_rating_system), which was developed to rank chess players, to the 2015 NFL season.  Here's a quick summary of Elo:
 
