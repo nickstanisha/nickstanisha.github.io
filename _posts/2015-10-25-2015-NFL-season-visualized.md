@@ -21,10 +21,12 @@ I hope to make several posts with this data, but for now I thought I'd just try 
 #elo_chart{ 
 	margin: auto;
 	font: 10px sans-serif;
+	width: 800px;
 }
 #playoff_chart{
 	margin: auto;
 	font: 10px sans-serif;
+	width: 800px;
 }
 
 .axis path,
@@ -51,14 +53,14 @@ I hope to make several posts with this data, but for now I thought I'd just try 
 </style>
 <div id="elo_chart"></div>
 <script src="http://d3js.org/d3.v3.js"></script>
-<script src="https://raw.githubusercontent.com/nickstanisha/nickstanisha.github.io/master/js/NFL/NFL_Line_Charts.js"></script>
+<script src="/js/NFL/NFL_Line_Charts.js"></script>
 <script>
 d3.csv("/data/NFL/elo.csv", function(error, data) { 
 	draw_chart(data, "Elo Rating", "elo_chart", [1150,1850], false)
 });
 </script>
 
-If we ignore for a minute the fact that most lines on this graph are pretty erratic (because the NFL season is short, each game is worth quite a few Elo points, so ratings can fluctuate pretty dramatically with a single win or loss) you can see some trends emerging.  Seattle seems to be on pace to be the biggest bust of the season, having fallen 65 points since the start of the season, after coming off back-to-back Superbowl appearances.  They are still above average, but it appears that they might have been over-rated at the start of the season.  Meanwhile, Cincinnati is on track to earn "Most Improved", having already climbed 107 points (keep in mind that they also started the season above the league average of 1500).  And finally, the Patriots are almost on pace with their undefeated 2007 season, and have a chance to approach [Greatest-of-all-Time](http://fivethirtyeight.com/datalab/new-england-patriots-are-almost-on-pace-to-be-the-greatest-of-all-time/) levels in their Elo ranking.
+If we ignore for a minute the fact that most lines on this graph are pretty erratic (because the NFL season is short, each game is worth quite a few Elo points, so ratings can fluctuate pretty dramatically with a single win or loss) you can see some trends emerging.  Seattle seems to be on the most severe downward-trend this season (having fallen 65 points since the start of the season) after coming off back-to-back Superbowl appearances.  They are still above average, but it appears that they might have been over-rated from the start.  Meanwhile, Cincinnati is proving itself week after week, having already climbed 107 points (keep in mind that they also started the season above the league average of 1500).  And finally, the Patriots are almost on pace with their undefeated 2007 season, and have a chance to approach [Greatest-of-all-Time](http://fivethirtyeight.com/datalab/new-england-patriots-are-almost-on-pace-to-be-the-greatest-of-all-time/) levels in their Elo ranking.
 
 <div id="playoff_chart"></div>
 <script>
