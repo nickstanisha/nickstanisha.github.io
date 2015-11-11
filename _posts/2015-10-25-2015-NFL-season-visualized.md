@@ -51,6 +51,7 @@ I hope to make several posts with this data, but for now I thought I'd just try 
   cursor: pointer;  
 }
 </style>
+
 <div id="elo_chart"></div>
 <script src="http://d3js.org/d3.v3.js"></script>
 <script src="/js/NFL/NFL_Line_Charts.js"></script>
@@ -60,8 +61,6 @@ d3.csv("/data/NFL/elo.csv", function(error, data) {
 });
 </script>
 
-If we ignore for a minute the fact that most lines on this graph are pretty erratic (because the NFL season is short, each game is worth quite a few Elo points, so ratings can fluctuate pretty dramatically with a single win or loss) you can see some trends emerging.  Seattle seems to be on the most severe downward-trend this season (having fallen 65 points since the start of the season) after coming off back-to-back Superbowl appearances.  They are still above average, but it appears that they might have been over-rated from the start.  Meanwhile, Cincinnati is proving itself week after week, having already climbed 107 points (keep in mind that they also started the season above the league average of 1500).  And finally, the Patriots are almost on pace with their undefeated 2007 season, and have a chance to approach [Greatest-of-all-Time](http://fivethirtyeight.com/datalab/new-england-patriots-are-almost-on-pace-to-be-the-greatest-of-all-time/) levels in their Elo ranking.
-
 <div id="playoff_chart"></div>
 <script>
 d3.csv("/data/NFL/playoffs.csv", function(error, data) {
@@ -69,7 +68,11 @@ d3.csv("/data/NFL/playoffs.csv", function(error, data) {
 });
 </script>
 
+#### Week 6 commentary (Elo)
+If we ignore for a minute the fact that most lines on this graph are pretty erratic (because the NFL season is short, each game is worth quite a few Elo points, so ratings can fluctuate pretty dramatically with a single win or loss) you can see some trends emerging.  Seattle seems to be on the most severe downward-trend this season (having fallen 65 points since the start of the season) after coming off back-to-back Superbowl appearances.  They are still above average, but it appears that they might have been over-rated from the start.  Meanwhile, Cincinnati is proving itself week after week, having already climbed 107 points (keep in mind that they also started the season above the league average of 1500).  And finally, the Patriots are almost on pace with their undefeated 2007 season, and have a chance to approach [Greatest-of-all-Time](http://fivethirtyeight.com/datalab/new-england-patriots-are-almost-on-pace-to-be-the-greatest-of-all-time/) levels in their Elo ranking.
 
+
+#### Week 6 commenary (Playoffs)
 This graph is kind of neat because you can truly see the trade-offs that constantly occur between teams that are ranked 2nd and 3rd in their division (see Pittsburgh and Baltimore for example).  As strong-but-not-division-winning football teams approach the end of the season, every step forward for one team becomes a step back for the other.
 
 
