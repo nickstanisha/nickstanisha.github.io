@@ -15,7 +15,7 @@ All elements of the visualization are interactive and responsive to changes in a
 <script src='/js/jquery-1.11.3.js' type='text/javascript'></script>
 <script src='/js/bootstrap.min.js' type='text/javascript'></script>
 
-<link href='/css/bootstrap.min.css' rel='stylesheet' type='text/css'>
+
 <link href='/css/dc.css' rel='stylesheet' type='text/css'>
 
 <style type="text/css"></style>
