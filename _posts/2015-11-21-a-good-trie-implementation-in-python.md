@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What is a Trie Anyway?
+title: A Good Trie Implementation in Python
 ---
 
 So I'm reviewing data structures and I've found some good implementation examples in Python for most of the big ones. However, try as I might, I couldn't find a good example of a trie implemented in Python that used object-oriented principles. Several examples that I did find recommended using a list of lists, or a dictionary of dictionaries to represent a trie. I found those to be too sloppy and hard to read, so I made this.
