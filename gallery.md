@@ -37,7 +37,11 @@ div.desc {
 }
 </style>
 
-
+<div class="img">
+  <a target="_blank" href="http://nickstanisha.github.io/2016/02/09/decisive-plays-in-superbowl-50.html">
+  <img src="http://nickstanisha.github.io/img/gallery/sb50.PNG" alt="Decisive Plays in Superbowl 50"></a>
+  <div class="desc">Decisive Plays in Superbowl 50</div>
+</div>
 <div class="img">
 	<a target="_blank" href="http://nickstanisha.github.io/2015/10/25/2015-NFL-season-visualized.html">
 	<img src="http://nickstanisha.github.io/img/gallery/nfl_line.PNG" alt="NFL Season Ratings"></a>
