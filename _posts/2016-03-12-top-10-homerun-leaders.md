@@ -4,7 +4,7 @@ title: Top 10 Home Run Leaders Analysis
 ---
 
 About a week ago, I saw [this post](https://www.reddit.com/r/dataisbeautiful/comments/49d9m3/xpost_from_rbaseball_visualizing_the_historical/) on the subreddit [/r/dataisbeautiful](https://www.reddit.com/r/dataisbeautiful). 
-After watching Redditor FDTAEV's animation, I found myself wishing there was a visualiation better suited for comparing the careers of baseball players who found themselves in the top 10 home run leaders. 
+After watching Redditor FDTAEV's animation, I found myself wishing there was a visualization better suited for comparing the careers of baseball players who found themselves in the top 10 home run leaders. 
 So using [the same data](http://www.seanlahman.com/baseball-archive/statistics/), I set out to make one.
 
 Examining each player's home runs accumulated as a function of time is a good place to start making that comparison. 
