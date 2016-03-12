@@ -35,7 +35,7 @@ However, Babe Ruth had the highest median home runs per season through his caree
 ## Who's Next?
 Judging simply from the number of current top 10 home run hitters whose careers have unfolded over the last ~20 years, it seems like it wouldn't be unreasonable to expect a currently active player to one day break Barry Bonds' all-time home run record. Based on current home run data, who is on pace to be that player?
 
-<img align="center" src="/img/post/homeruns/slope_table.png" alt="Home Run Rate Table">
+<img margin="auto" src="/img/post/homeruns/slope_table.png" alt="Home Run Rate Table">
 
 It looks like the smart money might be on Albert Pujols who has acquired homeruns at a higher average rate over his career than anyone else in MLB history, and is still 7 seasons behind Bonds' career length. Jose Abreu, although certainly impressive, will probably not surpass Bonds' record because his 2 years in the MLB don't reflect his actual career length (he actually began playing baseball in the Cuban National Series in 2005).
 
