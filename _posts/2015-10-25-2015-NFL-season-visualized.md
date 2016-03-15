@@ -68,6 +68,8 @@ d3.csv("/data/NFL/playoffs.csv", function(error, data) {
 });
 </script>
 
+My apologies, avid readers, for these incomplete graphs.  FiveThirtyEight decided to add playoff statistics during week 12, which changed their page's HTML and caused my web scraper to not function properly. By the time I noticed, I had already missed a few weeks of data and decided to just leave it as-is. FYI, [the Broncos beat the Panthers in Superbowl 50](http://nickstanisha.github.io/2016/02/09/decisive-plays-in-superbowl-50.html).  Below you can find my commentary from when I originally made this post during week 6.
+
 #### Week 6 commentary (Elo)
 If we ignore for a minute the fact that most lines on this graph are pretty erratic (because the NFL season is short, each game is worth quite a few Elo points, so ratings can fluctuate pretty dramatically with a single win or loss) you can see some trends emerging.  Seattle seems to be on the most severe downward-trend this season (having fallen 65 points since the start of the season) after coming off back-to-back Superbowl appearances.  They are still above average, but it appears that they might have been over-rated from the start.  Meanwhile, Cincinnati is proving itself week after week, having already climbed 107 points (keep in mind that they also started the season above the league average of 1500).  And finally, the Patriots are almost on pace with their undefeated 2007 season, and have a chance to approach [Greatest-of-all-Time](http://fivethirtyeight.com/datalab/new-england-patriots-are-almost-on-pace-to-be-the-greatest-of-all-time/) levels in their Elo ranking.
 
