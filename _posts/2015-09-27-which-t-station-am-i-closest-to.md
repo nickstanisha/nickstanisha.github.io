@@ -23,8 +23,8 @@ Orange, Green, and Blue Lines).
 <br>
 
 <script src="/js/d3.js"></script>
-<script src="http://shimz.me/example/d3js/geo_example/geo_template/topojson.v0.min.js"></script>
-<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+<script src="//d3js.org/topojson.v0.min.js"></script>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <style type="text/css">
 
 #map_canvas {
