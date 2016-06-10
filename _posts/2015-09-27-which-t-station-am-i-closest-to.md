@@ -22,7 +22,7 @@ Orange, Green, and Blue Lines).
 
 <br>
 
-<script src="http://d3js.org/d3.v3.min.js"></script>
+<script src="/js/d3.js"></script>
 <script src="http://shimz.me/example/d3js/geo_example/geo_template/topojson.v0.min.js"></script>
 <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
 <style type="text/css">

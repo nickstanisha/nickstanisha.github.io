@@ -34,7 +34,7 @@ The first thing that jumped out at me with this data set was the very apparent d
   margin-right: 4px;
 }
 </style>
-<script type="text/javascript" src="http://d3js.org/d3.v3.min.js"></script>
+<script type="text/javascript" src="/js/d3.js"></script>
 
 <script type="text/javascript">
 

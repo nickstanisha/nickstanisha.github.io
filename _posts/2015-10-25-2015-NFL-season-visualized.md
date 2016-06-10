@@ -53,7 +53,7 @@ I hope to make several posts with this data, but for now I thought I'd just try 
 </style>
 
 <div id="elo_chart"></div>
-<script src="http://d3js.org/d3.v3.js"></script>
+<script src="/js/d3.js"></script>
 <script src="/js/NFL/NFL_Line_Charts.js"></script>
 <script>
 d3.csv("/data/NFL/elo.csv", function(error, data) { 
