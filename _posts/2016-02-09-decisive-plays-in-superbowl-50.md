@@ -11,4 +11,4 @@ Peyton Manning truly has his defense to thank for this Superbowl victory agains 
 
 ![Carolina Plays](/img/post/sb50/carolina_plays.png)
 
-In conclusion, defensive coordinators from high schools and colleges around the country can now let out a hearty "I told you so".
+In conclusion, people who say things like "the best offense is a good defense" can say "I told you so" this year.
