@@ -35,7 +35,7 @@ is -> ais -> rais -> raise -> raiser -> raisers -> praisers -> upraisers
   .word-container{
     width: 100%;
     overflow-y: hidden;
-    overflow-x: scroll !important;
+    overflow-x: scroll;
     white-space: nowrap;
     height: 70px;
     text-align: center;
