@@ -18,7 +18,7 @@ la -> las -> lass -> lassi -> lassie -> lassies -> glassies -> glassiest
 la -> lap -> laps -> lapse -> elapse -> relapse -> relapser -> relapsers
 in -> pin -> ping -> aping -> raping -> craping -> scraping -> scrapings
 at -> eat -> eath -> heath -> sheath -> sheathe -> sheather -> sheathers
-is -> ais -> rais -> raise -> raiser -> raisers -> praisers -> upraises
+is -> ais -> rais -> raise -> raiser -> raisers -> praisers -> upraisers
 ```
 
 <style>
@@ -57,18 +57,3 @@ is -> ais -> rais -> raise -> raiser -> raisers -> praisers -> upraises
   <div id="8-letter-words" class="word-container"></div>
   <div id="9-letter-words" class="word-container"></div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
